@@ -15,3 +15,4 @@ Mouser Part Number,Manufacturer Part Number,Qty/Board,Order Qty,Description,Refe
 454-W25Q16JVSSIQ,W25Q16JVSSIQ,1,5,16Mbit SPI Flash Winbond SOIC-8,U24,
 771-PMEG3030EP115,"PMEG3030EP,115",1,6,Schottky Diode Nexperia SOD-128,D51,10% attrition
 771-BAV70215,"BAV70,215",42,231,Dual Switching Diode SOT-23,"D9-D50",10% attrition
+70-XO23C3EREHX25M000,XO23C3EREHX25M000,1,6,25MHz HCMOS Oscillator Vishay 3.2x2.5mm,X1,Moved from LCSC
