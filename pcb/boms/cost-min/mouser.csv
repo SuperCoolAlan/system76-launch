@@ -1,0 +1,13 @@
+Mouser Part Number,Manufacturer Part Number,Qty/Board,Order Qty,Description,References,Notes
+358-SC0914,RP2040,1,5,Dual-Core ARM Cortex-M0+ MCU Raspberry Pi QFN-56,U1,Mouser only
+579-USB7206C/KDX,USB7206C/KDX,1,5,USB 3.2 Hub Controller Microchip QFN-100,U2,Mouser only
+771-PUSB3FR4Z,PUSB3FR4Z,8,44,USB3.0 ESD Protection Nexperia DFN-10,"D1-D8",Mouser only; 10% attrition
+771-PTN5110NHQZ,PTN5110NHQZ,3,17,USB-C PD Controller NXP QFN-16,"U11,U12,U13",Mouser only; 10% attrition
+652-SRN4018TA-2R2M,SRN4018TA-2R2M,2,10,2.2uH Power Inductor Bourns 4x4mm,"L1,L2",Mouser only
+815-ABM8G-12-18D2Y,ABM8G-12.000MHZ-18-D2Y-T,1,5,12MHz Crystal Abracon 18pF 3.2x2.5mm,Y2,Mouser only
+647-PCW0J151MCO1GS,PCW0J151MCO1GS,4,20,150uF 6.3V Polymer Cap Nichicon 5mm,"C44-C47",Mouser only
+70-XO23C3EREHX25M000,XO23C3EREHX25M000,1,6,25MHz HCMOS Oscillator Vishay 3.2x2.5mm,X1,Mouser only
+595-TLV62585DRLR,TLV62585DRLR,2,11,3A Buck Converter TI SOT-563,"U4,U17",Cheaper than LCSC; 10% attrition
+771-CBTL02043ABQ115,"CBTL02043ABQ,115",3,17,USB3.0 Mux NXP QFN-20,"U3,U6,U15",Cheaper than LCSC; 10% attrition
+621-AP22811AW5-7,AP22811AW5-7,5,28,Load Switch Diodes Inc SOT-23-5,"U9,U10,U16,U20,U23",Cheaper than LCSC; 10% attrition
+454-W25Q16JVSSIQ,W25Q16JVSSIQ,1,5,16Mbit SPI Flash Winbond SOIC-8,U24,Cheaper than LCSC

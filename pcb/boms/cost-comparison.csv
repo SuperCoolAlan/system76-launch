@@ -1,7 +1,10 @@
 BOM Variant,Source,Merchandise,Tariff,Shipping,Taxes/Fees,Subtotal,Notes
-lcsc-max,Mouser,96.60,4.75,,,114.77,"8 parts"
-lcsc-max,LCSC,110.93,,,,111.17,33 parts
-lcsc-max,TOTAL,,,,,225.94,
-mouser-max,Mouser,157.63,8.39,,,178.77,"17 parts (missing LP5907)"
-mouser-max,LCSC,52.90,,,,,55.89,24 parts
-mouser-max,TOTAL,,,,,234.66,
+lcsc-max,Mouser,96.60,4.75,8.49,4.93,114.77,8 parts
+lcsc-max,LCSC,113.94,,0,,113.94,33 parts (free shipping)
+lcsc-max,TOTAL,,,,,228.71,
+mouser-max,Mouser,159.80,8.39,9.39,8.19,185.77,17 parts
+mouser-max,LCSC,52.90,,2.99,,55.89,24 parts
+mouser-max,TOTAL,,,,,241.66,
+cost-min,Mouser,134.95,8.39,9.39,6.98,159.71,12 parts
+cost-min,LCSC,67.10,,3.44,,70.54,29 parts
+cost-min,TOTAL,,,,,230.25,
