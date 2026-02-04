@@ -1,6 +1,6 @@
 Mouser Part Number,Manufacturer Part Number,Qty,Description,References,Notes
 358-SC0914,RP2040,1,Dual-Core ARM Cortex-M0+ MCU Raspberry Pi QFN-56,U1,Similar price to LCSC
-579-USB7206C/KDX,USB7206C/KDX,1,USB 3.2 Hub Controller Microchip QFN-100,U2,Similar price to LCSC
+579-USB7206C/KDX,USB7206C/KDX,1,USB 3.2 Hub Controller Microchip QFN-100,U2,LCSC has MOQ issue
 771-PUSB3FR4Z,PUSB3FR4Z,8,USB3.0 ESD Protection Nexperia DFN-10,"D1-D8",
 771-PTN5110NHQZ,PTN5110NHQZ,3,USB-C PD Controller NXP QFN-16,"U11,U12,U13",
 652-SRN4018TA-2R2M,SRN4018TA-2R2M,2,2.2uH Power Inductor Bourns 4x4mm,"L1,L2",
