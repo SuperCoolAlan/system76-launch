@@ -1,0 +1,42 @@
+Feeder Type,Feeder Notes,Part Number,Description,References,Qty/Board,Qty (10 boards),Source
+8mm Motorized,Opulo feeder,CL05A105KA5NQNC,1uF 0402 X5R 10V MLCC,"C1-C3,C5,C6,C72-C75",9,90,LCSC
+8mm Motorized,Opulo feeder,CL10A225KP8NNNC,2.2uF 0603 X5R 10V MLCC,"C4,C25-C27,C33,C59-C67,C76",14,140,LCSC
+8mm Strip,3D printed strip feeder,CL05B102KB5NNNC,1nF 0402 X7R MLCC,C7,1,10,LCSC
+8mm Motorized,Opulo feeder,CL05A104KA5NNNC,0.1uF 0402 X7R 16V MLCC,C8-C63,38,380,LCSC
+8mm Strip,3D printed strip feeder,"PMEG3030EP,115",Schottky Diode Nexperia SOD-128,D51,1,10,LCSC
+8mm Motorized,Opulo feeder,SK6805-EC15,Addressable RGB LED 1.5x1.5mm,LA0-LO3,84,840,LCSC
+8mm Motorized,Opulo feeder,0603WAF100LT5E,0.1 ohm 0603 1% Resistor,R3,1,10,LCSC
+8mm Motorized,Opulo feeder,RC0402FR-0710KL,10k 0402 1% Resistor YAGEO,"R4-R8,R11,R15,R23,R26,R31,R32",11,110,LCSC
+8mm Motorized,Opulo feeder,0402WGF1003TCE,100k 0402 1% Resistor,"R16,R17,R29,R30",4,40,LCSC
+8mm Strip,3D printed strip feeder,0402WGF4302TCE,43k 0402 1% Resistor,R21,1,10,LCSC
+8mm Motorized,Opulo feeder,0402WGF5232TCE,52.3k 0402 1% Resistor,"R22,R25",2,20,LCSC
+8mm Strip,3D printed strip feeder,0402WGF4990TCE,499 ohm 0402 1% Resistor,R27,1,10,LCSC
+8mm Motorized,Opulo feeder,AP22811AW5-7,Load Switch Diodes Inc SOT-23-5,"U9,U10,U16,U20,U23",5,50,LCSC
+8mm Motorized,Opulo feeder,SN74LVC1G08DCKR,Single AND Gate TI SC-70-5,"U14,U19,U22",3,30,LCSC
+8mm Strip,3D printed strip feeder,LP5907MFX-3.3/NOPB,3.3V LDO TI SOT-23-5,U18,1,10,LCSC
+8mm Strip,3D printed strip feeder,XO23C3EREHX25M000,25MHz HCMOS Oscillator Vishay 3.2x2.5mm,X1,1,10,Mouser
+8mm Strip,3D printed strip feeder,ABM8G-12.000MHZ-18-D2Y-T,12MHz Crystal Abracon 18pF 3.2x2.5mm,Y2,1,10,Mouser
+8mm Motorized,Opulo feeder,CL21A106KAYNNNE,10uF 0805 X5R 10V MLCC,"C32,C34,C35,C48-C50",6,60,LCSC
+8mm Motorized,Opulo feeder,CL05C331JB5NNNC,330pF 0402 C0G MLCC,"C68,C69",2,20,LCSC
+8mm Motorized,Opulo feeder,CL05C270JB5NNNC,27pF 0402 C0G MLCC,"C70,C71",2,20,LCSC
+12mm Motorized,Opulo feeder,PUSB3FR4Z,USB3.0 ESD Protection Nexperia DFN-10,D1-D8,8,80,Mouser
+8mm Motorized,Opulo feeder,"BAV70,215",Dual Switching Diode SOT-23,D9-D50,42,420,LCSC
+12mm Motorized,Opulo feeder,SRN4018TA-2R2M,2.2uH Power Inductor Bourns 4x4mm,"L1,L2",2,20,Mouser
+8mm Strip,3D printed strip feeder,RC0402FR-0712KL,12k 0402 1% Resistor,R1,1,10,LCSC
+8mm Motorized,Opulo feeder,RC0402FR-071KL,1k 0402 1% Resistor YAGEO,"R2,R37",2,20,LCSC
+8mm Motorized,Opulo feeder,0402WGF5101TCE,5.1k 0402 1% Resistor,"R9,R10,R36",3,30,LCSC
+8mm Motorized,Opulo feeder,0402WGF2003TCE,200k 0402 1% Resistor,"R12,R13,R19,R20",4,40,LCSC
+8mm Strip,3D printed strip feeder,0402WGF9101TCE,9.1k 0402 1% Resistor,R14,1,10,LCSC
+8mm Motorized,Opulo feeder,0402WGF270JTCE,27 ohm 0402 1% Resistor,"R38,R39",2,20,LCSC
+8mm Motorized,Opulo feeder,USBLC6-2SC6,ESD Protection ST SOT-23-6,"U0,U5,U7,U8,U21",5,50,LCSC
+16mm Strip,Strip feeder,RP2040,Dual-Core ARM Cortex-M0+ MCU Raspberry Pi QFN-56,U1,1,10,Mouser
+24mm+ Strip,Strip feeder,USB7206C/KDX,USB 3.2 Hub Controller Microchip QFN-100,U2,1,10,Mouser
+12mm Motorized,Opulo feeder,"CBTL02043ABQ,115",USB3.0 Mux NXP QFN-20,"U3,U6,U15",3,30,LCSC
+8mm Motorized,Opulo feeder,TLV62585DRLR,3A Buck Converter TI SOT-563,"U4,U17",2,20,LCSC
+12mm Motorized,Opulo feeder,PTN5110NHQZ,USB-C PD Controller NXP QFN-16,"U11,U12,U13",3,30,Mouser
+12mm Motorized,Opulo feeder,W25Q16JVSSIQ,16Mbit SPI Flash Winbond SOIC-8,U24,1,10,LCSC
+Manual,Tray/hand placement,PCW0J151MCO1GS,150uF 6.3V Polymer Cap Nichicon 5mm,C44-C47,4,40,Mouser
+Manual,Tray/hand placement,AFC07-S20FCC-00,FFC Connector 20-pin JUSHUO,J7,1,10,LCSC
+Manual,Tray/hand placement,GT-TC025D-H0065-L1,Tactile Switch G-Switch,SW1,1,10,LCSC
+Manual,Tray/hand placement,12401598E4#2A,USB-C Receptacle Amphenol,"J0,J4,J5",3,30,LCSC
+Manual,Tray/hand placement,1003-002-01100,USB-A 3.0 Receptacle CNC Tech,"J2,J3",2,20,LCSC
