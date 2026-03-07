@@ -1,22 +1,22 @@
 <openpnp-parts>
-   <part id="C_0402_1005Metric-1_uF" height-units="Millimeters" height="0.55" package-id="C_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0603_1608Metric-2.2_uF" height-units="Millimeters" height="0.9" package-id="C_0603_1608Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0402_1005Metric-1_nF" height-units="Millimeters" height="0.55" package-id="C_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0402_1005Metric-0.1uF" height-units="Millimeters" height="0.55" package-id="C_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="D_SOD-128-PMEG3030EP,115" height-units="Millimeters" height="1.0" package-id="D_SOD-128" speed="1.0" pick-retry-count="0"/>
-   <part id="Fiducial_0.75mm_Mask1.5mm-Fiducial" height-units="Millimeters" height="0.0" package-id="Fiducial_0.75mm_Mask1.5mm" speed="1.0" pick-retry-count="0"/>
-   <part id="LED_SK6805-EC15-SK6805-EC15" height-units="Millimeters" height="0.65" package-id="LED_SK6805-EC15" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0402_1005Metric-10_k" height-units="Millimeters" height="0.55" package-id="R_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0402_1005Metric-100_k" height-units="Millimeters" height="0.55" package-id="R_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0402_1005Metric-43_k" height-units="Millimeters" height="0.55" package-id="R_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0402_1005Metric-52.3_k" height-units="Millimeters" height="0.55" package-id="R_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0402_1005Metric-499" height-units="Millimeters" height="0.55" package-id="R_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="SOT-23-5-AP22811AW5-7_" height-units="Millimeters" height="1.1" package-id="SOT-23-5" speed="1.0" pick-retry-count="0"/>
-   <part id="SOT-353_SC-70-5-SN74LVC1G08DCKR" height-units="Millimeters" height="1.1" package-id="SOT-353_SC-70-5" speed="1.0" pick-retry-count="0"/>
-   <part id="SOT-23-5-AP22811AW5-7‎" height-units="Millimeters" height="1.1" package-id="SOT-23-5" speed="1.0" pick-retry-count="0"/>
-   <part id="SOT-23-5-LP5907MFX-3.3" height-units="Millimeters" height="1.1" package-id="SOT-23-5" speed="1.0" pick-retry-count="0"/>
-   <part id="Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm-ECS-3225MV-250-BN-TR_" height-units="Millimeters" height="1.0" package-id="Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm" speed="1.0" pick-retry-count="0"/>
-   <part id="Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm-RH100-12.000-18-2030-TR" height-units="Millimeters" height="1.0" package-id="Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0603_1608Metric-0.1" height-units="Millimeters" height="0.9" package-id="R_0603_1608Metric" speed="1.0" pick-retry-count="0"/>
-   <part fiducial-vision-id="FVS186cef5ab5d7d317" id="FIDUCIAL-HOME" height-units="Millimeters" height="0.0" package-id="FIDUCIAL-HOME" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0402_1005Metric-1_uF" height-units="Millimeters" height="0.55" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="C_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0603_1608Metric-2.2_uF" height-units="Millimeters" height="0.9" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="C_0603_1608Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0402_1005Metric-1_nF" height-units="Millimeters" height="0.55" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="C_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0402_1005Metric-0.1uF" height-units="Millimeters" height="0.55" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="C_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="D_SOD-128-PMEG3030EP,115" height-units="Millimeters" height="1.0" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="D_SOD-128" speed="1.0" pick-retry-count="0"/>
+   <part id="Fiducial_0.75mm_Mask1.5mm-Fiducial" height-units="Millimeters" height="0.0" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="Fiducial_0.75mm_Mask1.5mm" speed="1.0" pick-retry-count="0"/>
+   <part id="LED_SK6805-EC15-SK6805-EC15" height-units="Millimeters" height="0.65" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="LED_SK6805-EC15" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0402_1005Metric-10_k" height-units="Millimeters" height="0.55" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0402_1005Metric-100_k" height-units="Millimeters" height="0.55" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0402_1005Metric-43_k" height-units="Millimeters" height="0.55" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0402_1005Metric-52.3_k" height-units="Millimeters" height="0.55" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0402_1005Metric-499" height-units="Millimeters" height="0.55" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0402_1005Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="SOT-23-5-AP22811AW5-7_" height-units="Millimeters" height="1.1" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="SOT-23-5" speed="1.0" pick-retry-count="0"/>
+   <part id="SOT-353_SC-70-5-SN74LVC1G08DCKR" height-units="Millimeters" height="1.1" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="SOT-353_SC-70-5" speed="1.0" pick-retry-count="0"/>
+   <part id="SOT-23-5-AP22811AW5-7‎" height-units="Millimeters" height="1.1" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="SOT-23-5" speed="1.0" pick-retry-count="0"/>
+   <part id="SOT-23-5-LP5907MFX-3.3" height-units="Millimeters" height="1.1" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="SOT-23-5" speed="1.0" pick-retry-count="0"/>
+   <part id="Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm-ECS-3225MV-250-BN-TR_" height-units="Millimeters" height="1.0" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm" speed="1.0" pick-retry-count="0"/>
+   <part id="Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm-RH100-12.000-18-2030-TR" height-units="Millimeters" height="1.0" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0603_1608Metric-0.1" height-units="Millimeters" height="0.9" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0603_1608Metric" speed="1.0" pick-retry-count="0"/>
+   <part fiducial-vision-id="FVS186cef5ab5d7d317" id="FIDUCIAL-HOME" height-units="Millimeters" height="0.0" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="FIDUCIAL-HOME" speed="1.0" pick-retry-count="0"/>
 </openpnp-parts>
