@@ -277,7 +277,7 @@
                   <vacuum-sense-actuator-name>VAC1</vacuum-sense-actuator-name>
                   <vacuum-actuator-name>VAC1</vacuum-actuator-name>
                </nozzle>
-               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS17108356271a68ac" axis-rotation-id="AXS17108288e61da5fb" id="NOZ1710829fd33a0170" name="N2" rotation-mode="LimitedArticulation" aligning-rotation-mode="false" max-pick-articulation-angle="15.0" max-alignment-articulation-angle="30.0" pick-dwell-milliseconds="0" place-dwell-milliseconds="0" current-nozzle-tip-id="TIP16f0412ed2d50009" changer-enabled="false" nozzle-tip-changed-on-manual-feed="false" enable-dynamic-safe-z="true" blow-off-closing-valve="true" version="200" limit-rotation="true">
+               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS17108356271a68ac" axis-rotation-id="AXS17108288e61da5fb" id="NOZ1710829fd33a0170" name="N2" rotation-mode="LimitedArticulation" aligning-rotation-mode="false" max-pick-articulation-angle="15.0" max-alignment-articulation-angle="30.0" pick-dwell-milliseconds="0" place-dwell-milliseconds="0" current-nozzle-tip-id="TIP16b1a61b09e0c660" changer-enabled="false" nozzle-tip-changed-on-manual-feed="false" enable-dynamic-safe-z="true" blow-off-closing-valve="true" version="200" limit-rotation="true">
                   <compatible-nozzle-tip-ids class="java.util.ArrayList">
                      <string>TIP16f0412f7ef9e180</string>
                      <string>TIP16f0412ed2d50009</string>
@@ -363,7 +363,16 @@
          </head>
       </heads>
       <signalers/>
-      <feeders/>
+      <feeders>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR189aada6c3f4dafd" name="ReferenceTrayFeeder" enabled="false" part-id="C_0402_1005Metric-1_uF" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" tray-count-x="1" tray-count-y="60" feed-count="4">
+            <location units="Millimeters" x="278.32" y="201.94" z="4.0" rotation="0.0"/>
+            <offsets units="Millimeters" x="0.0" y="-2.0" z="0.0" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR189ab0b5d6a3052a" name="ReferenceTrayFeeder" enabled="false" part-id="SOT-23-5-LP5907MFX-3.3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" tray-count-x="1" tray-count-y="1" feed-count="0">
+            <location units="Millimeters" x="322.973" y="143.871" z="3.4" rotation="0.0"/>
+            <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
+         </feeder>
+      </feeders>
       <cameras>
          <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" id="CAM1614803235898" name="Bottom" looking="Up" auto-visible="false" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="false" enable-units-per-pixel-3-d="false" auto-view-plane-z="false" max-relative-motion="0.05" min-motion-template-match-score="0.9" min-contrast-range="16.0" settle-method="FixedTime" settle-time-ms="500" settle-timeout-ms="500" settle-threshold="0.0" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" fps="10.0" suspend-preview-in-tasks="false" capture-try-count="4" capture-try-timeout-ms="2000" rotation="0.0" flip-x="true" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0" green-balance="1.0" blue-balance="1.0" red-gamma="1.0" green-gamma="1.0" blue-gamma="1.0" deinterlace="false" light-actuator-id="ACT1605385237291" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" unique-id="LumenPnP Bottom: LumenPnP Botto usb-0000:07:00.3-1.2" format-id="14" freeze-properties="false">
             <units-per-pixel units="Millimeters" x="0.04081633" y="0.04040404" z="0.0" rotation="0.0"/>
@@ -723,7 +732,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.029302013016826816" center-y="-0.10737205574610217" radius="0.08431013966129457" phase-shift="-80.60340721134463" units="Millimeters" peak-error="0.01643472125276919" rms-error="0.010372294980399255"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.03622151978084263" center-y="-0.03948275880433336" radius="0.09518696073834179" phase-shift="-78.88088396823468" units="Millimeters" peak-error="0.027226462417571866" rms-error="0.01981827700753566"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
@@ -735,8 +744,8 @@
             <part-on-check-after-pick>true</part-on-check-after-pick>
             <part-on-check-align>false</part-on-check-align>
             <part-on-check-before-place>false</part-on-check-before-place>
-            <vacuum-level-part-on-low>215.0</vacuum-level-part-on-low>
-            <vacuum-level-part-on-high>226.0</vacuum-level-part-on-high>
+            <vacuum-level-part-on-low>224.0</vacuum-level-part-on-low>
+            <vacuum-level-part-on-high>229.0</vacuum-level-part-on-high>
             <vacuum-difference-part-on-low>0.0</vacuum-difference-part-on-low>
             <vacuum-difference-part-on-high>0.0</vacuum-difference-part-on-high>
             <method-part-off>None</method-part-off>
@@ -770,12 +779,17 @@
                <pipeline>
                   <stages>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="image" enabled="true" default-light="true" settle-option="Settle" count="1"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.MaskCircle" name="mask" enabled="true" diameter="200" property-name="MaskCircle"/>
+                     <cv-stage class="org.openpnp.vision.pipeline.stages.MaskCircle" name="mask" enabled="true" diameter="80" property-name="MaskCircle"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCircularSymmetry" name="cir" enabled="true" min-diameter="5" max-diameter="25" max-distance="250" search-width="0" search-height="0" max-target-count="1" min-symmetry="2.0" corr-symmetry="0.0" outer-margin="0.2" inner-margin="0.4" sub-sampling="8" super-sampling="1" symmetry-score="OverallVarianceVsRingVarianceSum" property-name="" diagnostics="true" heat-map="true"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertModelToKeyPoints" name="results" enabled="true" model-stage-name="cir"/>
                   </stages>
                </pipeline>
-               <runout-compensation-lookup class="java.util.HashMap"/>
+               <runout-compensation-lookup class="java.util.HashMap">
+                  <entry>
+                     <string>NOZ1710829fd33a0170</string>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.020408165" center-y="-0.09427609333333334" radius="0.0" phase-shift="0.0" units="Millimeters" peak-error="0.033670033333333335" rms-error="0.015057696667603435"/>
+                  </entry>
+               </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
                <offset-threshold-length value="2.0" units="Millimeters"/>
                <calibration-Z-offset value="0.0" units="Millimeters"/>
@@ -875,12 +889,7 @@
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertModelToKeyPoints" name="results" enabled="true" model-stage-name="cir"/>
                   </stages>
                </pipeline>
-               <runout-compensation-lookup class="java.util.HashMap">
-                  <entry>
-                     <string>NOZ1710829fd33a0170</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.020408165" center-y="-0.02020202" radius="0.0" phase-shift="-0.0" units="Millimeters" peak-error="0.0" rms-error="0.0"/>
-                  </entry>
-               </runout-compensation-lookup>
+               <runout-compensation-lookup class="java.util.HashMap"/>
                <minimum-detail-size value="0.2" units="Millimeters"/>
                <offset-threshold-length value="2.0" units="Millimeters"/>
                <calibration-Z-offset value="0.0" units="Millimeters"/>

@@ -1,28 +1,38 @@
 # Nozzle Plan — Opulo LumenPnP
 
+Available nozzles: N045, N08, N14, N24, N40, N75
+
 Populate the **top (front) side first** since it has the smaller components.
 
-## Top Side Pass: N045 + N1
+## Top Side Pass: N045 + N08
 
 | Nozzle | Packages | Count |
 |--------|----------|-------|
 | N045 | 0402 caps & resistors | 42 |
-| N1 | SK6805-EC15 LEDs (1.5x1.5mm), 0603, SOT-23-5, SC-70-5, SOD-128, 3.2x2.5mm oscillators | 97 |
+| N08 | SK6805-EC15 LEDs (1.5x1.5mm), 0603, SOT-23-5, SC-70-5, SOD-128, 3.2x2.5mm oscillators | 97 |
 
-## Bottom Side Pass 1: N1 + N2
+## Bottom Side Pass 1: N045 + N08
 
 | Nozzle | Packages | Count |
 |--------|----------|-------|
-| N1 (or N045) | 0402, 0603, DFN-10, SOT-23/SOT-23-6, SOT-563, SC-70-5 | 109 |
-| N2 | 0805, QFN-16, QFN-20, SRN4018 inductors (4x4mm), CP_Elec (5x3.9mm), SOIC-8 | 20 |
+| N045 | 0402 caps & resistors | 47 |
+| N08 | 0603, DFN-10, SOT-23/SOT-23-6, SOT-563, SC-70-5 | 62 |
 
-## Bottom Side Pass 2: N2 + N4
+## Bottom Side Pass 2: N14 + N24
+
+| Nozzle | Packages | Count |
+|--------|----------|-------|
+| N14 | 0805, QFN-16 (2.6x2.6mm), QFN-20 (2.5x4.5mm) | 12 |
+| N24 | SRN4018 inductors (4x4mm), SOIC-8 (5.2x5.2mm) | 3 |
+
+## Bottom Side Pass 3: N40 + N75
 
 Use PnP for the large QFNs to avoid smashing solder paste and causing shorts.
 
 | Nozzle | Packages | Count |
 |--------|----------|-------|
-| N4 | QFN-56 RP2040 (7x7mm), QFN-100 USB7206C (12x12mm) | 2 |
+| N40 | QFN-56 RP2040 (7x7mm) | 1 |
+| N75 | QFN-100 USB7206C (12x12mm) | 1 |
 
 ## Manual Placement
 
