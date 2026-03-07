@@ -723,7 +723,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.09118100709898953" center-y="-0.1573688340393937" radius="0.08781582343626552" phase-shift="-132.91808353355935" units="Millimeters" peak-error="0.26506570623754844" rms-error="0.12895339233271924"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.029302013016826816" center-y="-0.10737205574610217" radius="0.08431013966129457" phase-shift="-80.60340721134463" units="Millimeters" peak-error="0.01643472125276919" rms-error="0.010372294980399255"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
@@ -735,8 +735,8 @@
             <part-on-check-after-pick>true</part-on-check-after-pick>
             <part-on-check-align>false</part-on-check-align>
             <part-on-check-before-place>false</part-on-check-before-place>
-            <vacuum-level-part-on-low>220.0</vacuum-level-part-on-low>
-            <vacuum-level-part-on-high>241.0</vacuum-level-part-on-high>
+            <vacuum-level-part-on-low>215.0</vacuum-level-part-on-low>
+            <vacuum-level-part-on-high>226.0</vacuum-level-part-on-high>
             <vacuum-difference-part-on-low>0.0</vacuum-difference-part-on-low>
             <vacuum-difference-part-on-high>0.0</vacuum-difference-part-on-high>
             <method-part-off>None</method-part-off>
@@ -891,7 +891,7 @@
             <part-on-check-align>false</part-on-check-align>
             <part-on-check-before-place>false</part-on-check-before-place>
             <vacuum-level-part-on-low>220.0</vacuum-level-part-on-low>
-            <vacuum-level-part-on-high>248.0</vacuum-level-part-on-high>
+            <vacuum-level-part-on-high>230.0</vacuum-level-part-on-high>
             <vacuum-difference-part-on-low>0.0</vacuum-difference-part-on-low>
             <vacuum-difference-part-on-high>0.0</vacuum-difference-part-on-high>
             <method-part-off>None</method-part-off>
