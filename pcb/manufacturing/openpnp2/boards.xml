@@ -1,0 +1,5 @@
+<openpnp-boards>
+   <board>/home/autonaut/PnP_Files/ftp.board.xml</board>
+   <board>/home/autonaut/PnP_Files/autonaut2v2.board.xml</board>
+   <board>/home/autonaut/Documents/system76-launch/pcb/manufacturing/launch76-top.board.xml</board>
+</openpnp-boards>
