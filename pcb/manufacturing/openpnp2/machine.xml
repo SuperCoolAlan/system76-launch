@@ -382,19 +382,19 @@
          </feeder>
          <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189ab3938460005b" name="004A800B5843570A20313138" enabled="false" part-id="C_0402_1005Metric-1_uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="004A800B5843570A20313138" part-pitch="2" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
-            <offset units="Millimeters" x="0.0" y="-1.3" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="-2.0" z="0.0" rotation="0.0"/>
          </feeder>
          <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189ab4497e6db25f" name="001B00145843570920313138" enabled="false" part-id="C_0402_1005Metric-0.1uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="001B00145843570920313138" part-pitch="2" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
-            <offset units="Millimeters" x="0.0" y="-0.09" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="-1.0" z="0.0" rotation="0.0"/>
          </feeder>
          <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189ab4cbb47b8367" name="0001000E5843570B20313138" enabled="false" part-id="R_0402_1005Metric-10_k" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="0001000E5843570B20313138" part-pitch="2" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
-            <offset units="Millimeters" x="0.0" y="0.1" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="0.1" z="-0.4" rotation="0.0"/>
          </feeder>
          <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189ab549ff4e0ccc" name="000C000E5843570B20313138" enabled="false" part-id="R_0402_1005Metric-52.3_k" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="000C000E5843570B20313138" part-pitch="2" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
-            <offset units="Millimeters" x="0.0" y="-0.38" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="-0.7" z="0.0" rotation="0.0"/>
          </feeder>
       </feeders>
       <cameras>
@@ -683,7 +683,7 @@
             <object class="org.openpnp.machine.photon.PhotonFeederSlots">
                <slots>
                   <slot address="2">
-                     <location units="Millimeters" x="43.2" y="53.1" z="3.1" rotation="0.0"/>
+                     <location units="Millimeters" x="42.9" y="52.0" z="3.1" rotation="0.0"/>
                   </slot>
                   <slot address="1">
                      <location units="Millimeters" x="28.673" y="45.468" z="4.0" rotation="0.0"/>
@@ -692,11 +692,11 @@
                      <location units="Millimeters" x="58.8" y="55.0" z="3.2" rotation="0.0"/>
                   </slot>
                   <slot address="4">
-                     <location units="Millimeters" x="74.58" y="55.02" z="3.1" rotation="0.0"/>
+                     <location units="Millimeters" x="74.38" y="55.72" z="3.5" rotation="0.0"/>
                   </slot>
                   <slot address="5"/>
                   <slot address="6">
-                     <location units="Millimeters" x="105.94" y="54.89" z="4.5" rotation="0.0"/>
+                     <location units="Millimeters" x="105.94" y="55.29" z="3.2" rotation="0.0"/>
                   </slot>
                   <slot address="9"/>
                   <slot address="13"/>
@@ -760,7 +760,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.038491633455141554" center-y="-0.05102160851526953" radius="0.0941850656059624" phase-shift="-125.78926490736045" units="Millimeters" peak-error="0.017995476329011415" rms-error="0.011316227168048625"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.12259126719953663" center-y="-0.112061293351453" radius="0.07997391375376972" phase-shift="-80.25746336174237" units="Millimeters" peak-error="0.03666248604221554" rms-error="0.02426888897498185"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
@@ -815,7 +815,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>NOZ1710829fd33a0170</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.013605443333333335" center-y="-0.12794612666666666" radius="0.02519436571997336" phase-shift="-180.0" units="Millimeters" peak-error="0.03471600472944897" rms-error="0.022604492183081977"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.08843538166666666" center-y="-0.12794612666666666" radius="2.032058539040873E-11" phase-shift="-135.0969722555921" units="Millimeters" peak-error="0.038288142897599874" rms-error="0.027073805474748063"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
@@ -828,7 +828,7 @@
             <part-on-check-align>false</part-on-check-align>
             <part-on-check-before-place>false</part-on-check-before-place>
             <vacuum-level-part-on-low>220.0</vacuum-level-part-on-low>
-            <vacuum-level-part-on-high>231.0</vacuum-level-part-on-high>
+            <vacuum-level-part-on-high>226.0</vacuum-level-part-on-high>
             <vacuum-difference-part-on-low>0.0</vacuum-difference-part-on-low>
             <vacuum-difference-part-on-high>0.0</vacuum-difference-part-on-high>
             <method-part-off>None</method-part-off>
