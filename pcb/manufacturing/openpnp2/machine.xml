@@ -380,9 +380,21 @@
             <location units="Millimeters" x="352.773" y="142.071" z="2.4" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189ab3938460005b" name="004A800B5843570A20313138" enabled="false" part-id="C_0402_1005Metric-1_uF" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="004A800B5843570A20313138" part-pitch="2" move-while-feeding="true">
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189ab3938460005b" name="004A800B5843570A20313138" enabled="false" part-id="C_0402_1005Metric-1_uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="004A800B5843570A20313138" part-pitch="2" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
-            <offset units="Millimeters" x="0.0" y="-0.2" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="-1.3" z="0.0" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189ab4497e6db25f" name="001B00145843570920313138" enabled="false" part-id="C_0402_1005Metric-0.1uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="001B00145843570920313138" part-pitch="2" move-while-feeding="true">
+            <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="-0.09" z="0.0" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189ab4cbb47b8367" name="0001000E5843570B20313138" enabled="false" part-id="R_0402_1005Metric-10_k" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="0001000E5843570B20313138" part-pitch="2" move-while-feeding="true">
+            <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="0.1" z="0.0" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189ab549ff4e0ccc" name="000C000E5843570B20313138" enabled="false" part-id="R_0402_1005Metric-52.3_k" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="000C000E5843570B20313138" part-pitch="2" move-while-feeding="true">
+            <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="-0.38" z="0.0" rotation="0.0"/>
          </feeder>
       </feeders>
       <cameras>
@@ -644,7 +656,7 @@
          </entry>
          <entry>
             <string>PhotonFeeder.MaxFeederAddress</string>
-            <object class="java.lang.Integer">2</object>
+            <object class="java.lang.Integer">7</object>
          </entry>
          <entry>
             <string>ReferenceAutoFeederSlot.banks</string>
@@ -676,11 +688,15 @@
                   <slot address="1">
                      <location units="Millimeters" x="28.673" y="45.468" z="4.0" rotation="0.0"/>
                   </slot>
-                  <slot address="3"/>
-                  <slot address="4"/>
+                  <slot address="3">
+                     <location units="Millimeters" x="58.8" y="55.0" z="3.2" rotation="0.0"/>
+                  </slot>
+                  <slot address="4">
+                     <location units="Millimeters" x="74.58" y="55.02" z="3.1" rotation="0.0"/>
+                  </slot>
                   <slot address="5"/>
                   <slot address="6">
-                     <location units="Millimeters" x="106.439" y="49.801" z="4.5" rotation="200.0"/>
+                     <location units="Millimeters" x="105.94" y="54.89" z="4.5" rotation="0.0"/>
                   </slot>
                   <slot address="9"/>
                   <slot address="13"/>
@@ -744,7 +760,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.029302013016826813" center-y="-0.08584413392210682" radius="0.09030340560265789" phase-shift="81.90712940534837" units="Millimeters" peak-error="0.02018952897177842" rms-error="0.013106256573190693"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.038491633455141554" center-y="-0.05102160851526953" radius="0.0941850656059624" phase-shift="-125.78926490736045" units="Millimeters" peak-error="0.017995476329011415" rms-error="0.011316227168048625"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
@@ -791,15 +807,15 @@
                <pipeline>
                   <stages>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="image" enabled="true" default-light="true" settle-option="Settle" count="1"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.MaskCircle" name="mask" enabled="true" diameter="80" property-name="MaskCircle"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCircularSymmetry" name="cir" enabled="true" min-diameter="5" max-diameter="25" max-distance="250" search-width="0" search-height="0" max-target-count="1" min-symmetry="2.0" corr-symmetry="0.0" outer-margin="0.2" inner-margin="0.4" sub-sampling="8" super-sampling="1" symmetry-score="OverallVarianceVsRingVarianceSum" property-name="" diagnostics="true" heat-map="true"/>
+                     <cv-stage class="org.openpnp.vision.pipeline.stages.MaskCircle" name="mask" enabled="true" diameter="120" property-name="MaskCircle"/>
+                     <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCircularSymmetry" name="cir" enabled="true" min-diameter="5" max-diameter="45" max-distance="250" search-width="0" search-height="0" max-target-count="1" min-symmetry="1.5" corr-symmetry="0.0" outer-margin="0.2" inner-margin="0.4" sub-sampling="8" super-sampling="1" symmetry-score="OverallVarianceVsRingVarianceSum" property-name="" diagnostics="true" heat-map="true"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertModelToKeyPoints" name="results" enabled="true" model-stage-name="cir"/>
                   </stages>
                </pipeline>
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>NOZ1710829fd33a0170</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.04988662555555556" center-y="-0.12345678888888892" radius="0.021818960745732748" phase-shift="-29.494953485111434" units="Millimeters" peak-error="0.013600292310378747" rms-error="0.012078712636658554"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.013605443333333335" center-y="-0.12794612666666666" radius="0.02519436571997336" phase-shift="-180.0" units="Millimeters" peak-error="0.03471600472944897" rms-error="0.022604492183081977"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
