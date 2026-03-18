@@ -364,7 +364,7 @@
       </heads>
       <signalers/>
       <feeders>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR189aada6c3f4dafd" name="ReferenceTrayFeeder" enabled="false" part-id="C_0402_1005Metric-1_uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" tray-count-x="1" tray-count-y="60" feed-count="4">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR189aada6c3f4dafd" name="ReferenceTrayFeeder" enabled="false" part-id="C_0402_1005Metric-1_nF" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" tray-count-x="1" tray-count-y="60" feed-count="4">
             <location units="Millimeters" x="278.32" y="201.94" z="4.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-2.0" z="0.0" rotation="0.0"/>
          </feeder>
@@ -382,27 +382,31 @@
          </feeder>
          <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189ab3938460005b" name="004A800B5843570A20313138" enabled="false" part-id="C_0402_1005Metric-1_uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="004A800B5843570A20313138" part-pitch="2" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
-            <offset units="Millimeters" x="0.0" y="-2.0" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="-0.3" z="0.0" rotation="0.0"/>
          </feeder>
          <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189ab4497e6db25f" name="001B00145843570920313138" enabled="false" part-id="C_0402_1005Metric-0.1uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="001B00145843570920313138" part-pitch="2" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
-            <offset units="Millimeters" x="0.0" y="-1.0" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="-0.2" y="-0.5" z="0.0" rotation="0.0"/>
          </feeder>
          <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189ab4cbb47b8367" name="0001000E5843570B20313138" enabled="false" part-id="R_0402_1005Metric-10_k" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="0001000E5843570B20313138" part-pitch="2" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
-            <offset units="Millimeters" x="0.0" y="0.1" z="-0.4" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="0.0" z="-0.4" rotation="0.0"/>
          </feeder>
          <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189ab549ff4e0ccc" name="000C000E5843570B20313138" enabled="false" part-id="R_0402_1005Metric-52.3_k" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="000C000E5843570B20313138" part-pitch="2" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
-            <offset units="Millimeters" x="0.0" y="-0.7" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189b9bc9adfa3f72" name="004A80095843570A20313138" enabled="false" part-id="LED_SK6805-EC15-SK6805-EC15" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="004A80095843570A20313138" part-pitch="4" move-while-feeding="true">
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189b9bc9adfa3f72" name="004A80095843570A20313138" enabled="false" part-id="LED_SK6805-EC15-SK6805-EC15" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="004A80095843570A20313138" part-pitch="4" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
-            <offset units="Millimeters" x="0.1" y="0.2" z="-0.2" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="0.0" z="-0.2" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189b9c57b0e25e52" name="0007000B5843570B20313138" enabled="false" part-id="C_0603_1608Metric-2.2_uF" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="0007000B5843570B20313138" part-pitch="4" move-while-feeding="true">
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189b9c57b0e25e52" name="0007000B5843570B20313138" enabled="false" part-id="C_0603_1608Metric-2.2_uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="0007000B5843570B20313138" part-pitch="4" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <offset units="Millimeters" x="0.0" y="-0.0" z="-0.4" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189e0dd32bfe1188" name="000400105843570920313138" enabled="false" part-id="SOT-23-5-AP22811AW5-7_" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="000400105843570920313138" part-pitch="4" move-while-feeding="true">
+            <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="-0.0" z="-0.7" rotation="0.0"/>
          </feeder>
       </feeders>
       <cameras>
@@ -664,7 +668,7 @@
          </entry>
          <entry>
             <string>PhotonFeeder.MaxFeederAddress</string>
-            <object class="java.lang.Integer">8</object>
+            <object class="java.lang.Integer">10</object>
          </entry>
          <entry>
             <string>ReferenceAutoFeederSlot.banks</string>
@@ -700,11 +704,11 @@
                      <location units="Millimeters" x="58.8" y="55.0" z="3.2" rotation="0.0"/>
                   </slot>
                   <slot address="4">
-                     <location units="Millimeters" x="74.38" y="55.72" z="3.5" rotation="0.0"/>
+                     <location units="Millimeters" x="74.38" y="56.32" z="3.5" rotation="0.0"/>
                   </slot>
                   <slot address="5"/>
                   <slot address="6">
-                     <location units="Millimeters" x="105.94" y="55.29" z="3.2" rotation="0.0"/>
+                     <location units="Millimeters" x="106.14" y="54.89" z="3.2" rotation="0.0"/>
                   </slot>
                   <slot address="9"/>
                   <slot address="13"/>
@@ -726,12 +730,14 @@
                   </slot>
                   <slot address="12"/>
                   <slot address="7">
-                     <location units="Millimeters" x="121.64" y="54.39" z="3.5" rotation="0.0"/>
+                     <location units="Millimeters" x="121.64" y="55.09" z="3.5" rotation="0.0"/>
                   </slot>
                   <slot address="8">
-                     <location units="Millimeters" x="137.84" y="52.49" z="4.0" rotation="0.0"/>
+                     <location units="Millimeters" x="137.54" y="54.69" z="4.0" rotation="0.0"/>
                   </slot>
-                  <slot address="10"/>
+                  <slot address="10">
+                     <location units="Millimeters" x="169.94" y="55.49" z="3.5" rotation="0.0"/>
+                  </slot>
                   <slot address="24"/>
                </slots>
             </object>
@@ -772,7 +778,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.1119349673088843" center-y="-0.11148682847254236" radius="0.3398720283982016" phase-shift="-165.62699277427078" units="Millimeters" peak-error="0.04850278137659293" rms-error="0.029802272522823147"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.029302013016826813" center-y="-0.10022965884706053" radius="0.08660810251255491" phase-shift="-98.69632870348788" units="Millimeters" peak-error="0.018971724980282035" rms-error="0.011385109016736191"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
@@ -827,7 +833,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>NOZ1710829fd33a0170</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.102040825" center-y="-0.12794612666666666" radius="0.025194365719973355" phase-shift="-5.470413460078114E-15" units="Millimeters" peak-error="0.020626030910315094" rms-error="0.016720584812868648"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.006802721666666663" center-y="-0.11447811333333335" radius="0.021818960745732745" phase-shift="44.70915825624029" units="Millimeters" peak-error="0.020186318872286863" rms-error="0.014858632674076246"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
