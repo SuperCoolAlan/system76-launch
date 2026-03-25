@@ -6,7 +6,7 @@ Feeder Type,Slot,Feeder Notes,Part Number,Description,OpenPnP Part Name,Referenc
 8mm Motorized,6,Opulo feeder,0402WGF5232TCE,52.3k 0402 1% Resistor,R_0402_1005Metric-52.3_k,"R22,R25",2,20,LCSC,both
 8mm Motorized,7,Opulo feeder,SK6805-EC15,Addressable RGB LED 1.5x1.5mm,LED_SK6805-EC15-SK6805-EC15,LA0-LO3,84,840,LCSC,top
 8mm Motorized,8,Opulo feeder,CL10A225KP8NNNC,2.2uF 0603 X5R 10V MLCC,C_0603_1608Metric-2.2_uF,"C4,C25-C27,C33,C59-C67,C76",14,140,LCSC,both
-8mm Motorized,9,Opulo feeder,0603WAF100LT5E,0.1 ohm 0603 1% Resistor,R_0603_1608Metric-0.1,R3,1,10,LCSC,top
+8mm Strip,S7,3D printed strip feeder,0603WAF100LT5E,0.1 ohm 0603 1% Resistor,R_0603_1608Metric-0.1,R3,1,10,LCSC,top
 8mm Motorized,10,Opulo feeder,AP22811AW5-7,Load Switch Diodes Inc SOT-23-5,SOT-23-5-AP22811AW5-7_,"U9,U10,U16,U20,U23",5,50,LCSC,top
 8mm Motorized,11,Opulo feeder,SN74LVC1G08DCKR,Single AND Gate TI SC-70-5,SOT-353_SC-70-5-SN74LVC1G08DCKR,"U14,U19,U22",3,30,LCSC,both
 8mm Strip,S1,3D printed strip feeder,CC0402JRX7R9BB102,1nF 0402 X7R 50V MLCC YAGEO,C_0402_1005Metric-1_nF,C7,1,10,LCSC,top
