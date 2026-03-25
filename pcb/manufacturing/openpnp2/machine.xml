@@ -365,7 +365,7 @@
       <signalers/>
       <feeders>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR189aada6c3f4dafd" name="ReferenceTrayFeeder" enabled="false" part-id="R_0402_1005Metric-43_k" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" tray-count-x="1" tray-count-y="60" feed-count="4">
-            <location units="Millimeters" x="293.32" y="201.64" z="4.0" rotation="0.0"/>
+            <location units="Millimeters" x="293.32" y="200.74" z="4.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-2.0" z="0.0" rotation="0.0"/>
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR189ab0b5d6a3052a" name="ReferenceTrayFeeder" enabled="false" part-id="SOT-23-5-LP5907MFX-3.3" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" tray-count-x="1" tray-count-y="1" feed-count="0">
@@ -418,6 +418,10 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR18a0348eec3b6a02" name="ReferenceTrayFeeder" enabled="false" part-id="R_0603_1608Metric-0.1" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" tray-count-x="1" tray-count-y="1" feed-count="0">
             <location units="Millimeters" x="367.773" y="151.171" z="4.0" rotation="0.0"/>
+            <offsets units="Millimeters" x="0.0" y="-2.0" z="0.0" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR18a03516cc294fcb" name="ReferenceTrayFeeder" enabled="false" part-id="R_0402_1005Metric-499" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" tray-count-x="1" tray-count-y="1" feed-count="0">
+            <location units="Millimeters" x="308.32" y="200.24" z="4.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-2.0" z="0.0" rotation="0.0"/>
          </feeder>
       </feeders>
@@ -792,7 +796,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.23862460094951954" center-y="-0.005036053922106815" radius="0.09692490414583722" phase-shift="66.89775889286642" units="Millimeters" peak-error="0.021013860399197063" rms-error="0.015722459226332218"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.24336168836821354" center-y="-0.16447013250403478" radius="0.0814711555000427" phase-shift="-67.43162046992458" units="Millimeters" peak-error="1.1185634726795772" rms-error="0.48040609404990386"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
@@ -847,7 +851,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>NOZ1710829fd33a0170</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.17006804166666667" center-y="-0.006734006666666667" radius="0.021818960745732748" phase-shift="-180.0" units="Millimeters" peak-error="0.025108605563099084" rms-error="0.01596232939520267"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.18367348499999997" center-y="-0.026936026666666668" radius="0.0" phase-shift="90.0" units="Millimeters" peak-error="0.033670033333333335" rms-error="0.015057696667603435"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
