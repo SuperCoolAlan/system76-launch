@@ -364,8 +364,8 @@
       </heads>
       <signalers/>
       <feeders>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR189aada6c3f4dafd" name="ReferenceTrayFeeder" enabled="false" part-id="C_0402_1005Metric-1_nF" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" tray-count-x="1" tray-count-y="60" feed-count="4">
-            <location units="Millimeters" x="278.32" y="201.94" z="4.0" rotation="0.0"/>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR189aada6c3f4dafd" name="ReferenceTrayFeeder" enabled="false" part-id="R_0402_1005Metric-43_k" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" tray-count-x="1" tray-count-y="60" feed-count="4">
+            <location units="Millimeters" x="293.32" y="201.64" z="4.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-2.0" z="0.0" rotation="0.0"/>
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR189ab0b5d6a3052a" name="ReferenceTrayFeeder" enabled="false" part-id="SOT-23-5-LP5907MFX-3.3" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" tray-count-x="1" tray-count-y="1" feed-count="0">
@@ -407,6 +407,18 @@
          <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR189e0dd32bfe1188" name="000400105843570920313138" enabled="false" part-id="SOT-23-5-AP22811AW5-7_" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="000400105843570920313138" part-pitch="4" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <offset units="Millimeters" x="0.0" y="-0.0" z="-0.7" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR18a03425b8efa6b7" name="004800165843570A20313138" enabled="false" part-id="R_0402_1005Metric-100_k" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="004800165843570A20313138" part-pitch="2" move-while-feeding="true">
+            <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="0.0" z="-0.26" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR18a034625aeb100f" name="ReferenceTrayFeeder" enabled="false" part-id="C_0402_1005Metric-1_uF" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" tray-count-x="1" tray-count-y="1" feed-count="0">
+            <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR18a0348eec3b6a02" name="ReferenceTrayFeeder" enabled="false" part-id="R_0603_1608Metric-0.1" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" tray-count-x="1" tray-count-y="1" feed-count="0">
+            <location units="Millimeters" x="367.773" y="151.171" z="4.0" rotation="0.0"/>
+            <offsets units="Millimeters" x="0.0" y="-2.0" z="0.0" rotation="0.0"/>
          </feeder>
       </feeders>
       <cameras>
@@ -668,7 +680,7 @@
          </entry>
          <entry>
             <string>PhotonFeeder.MaxFeederAddress</string>
-            <object class="java.lang.Integer">10</object>
+            <object class="java.lang.Integer">5</object>
          </entry>
          <entry>
             <string>ReferenceAutoFeederSlot.banks</string>
@@ -706,7 +718,9 @@
                   <slot address="4">
                      <location units="Millimeters" x="74.38" y="56.32" z="3.5" rotation="0.0"/>
                   </slot>
-                  <slot address="5"/>
+                  <slot address="5">
+                     <location units="Millimeters" x="90.48" y="53.92" z="3.5" rotation="0.0"/>
+                  </slot>
                   <slot address="6">
                      <location units="Millimeters" x="106.14" y="54.89" z="3.2" rotation="0.0"/>
                   </slot>
@@ -778,7 +792,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.24722267654485844" center-y="0.0021063429769348253" radius="0.0999319993867122" phase-shift="58.54143384264535" units="Millimeters" peak-error="0.019846154203006044" rms-error="0.012726154251913004"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.24278136154765237" center-y="-0.005036053922106815" radius="0.09765391329797242" phase-shift="71.19222496160607" units="Millimeters" peak-error="0.030372581859127157" rms-error="0.01833994183347738"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
@@ -833,7 +847,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>NOZ1710829fd33a0170</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.19047620666666668" center-y="-0.006734006666666667" radius="0.017815106848287052" phase-shift="-180.0" units="Millimeters" peak-error="0.021066058803390117" rms-error="0.01592411492848438"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.18367348499999997" center-y="-0.006734006666666667" radius="0.0" phase-shift="90.00000000000001" units="Millimeters" peak-error="0.026936026666666668" rms-error="0.019046647114221677"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
