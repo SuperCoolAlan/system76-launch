@@ -424,6 +424,10 @@
             <location units="Millimeters" x="308.32" y="200.24" z="4.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-2.0" z="0.0" rotation="0.0"/>
          </feeder>
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR18a0828c10e64627" name="0044000C5843570C20313138" enabled="false" part-id="SOT-353_SC-70-5-SN74LVC1G08DCKR" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="0044000C5843570C20313138" part-pitch="4" move-while-feeding="true">
+            <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <offset units="Millimeters" x="0.0" y="-0.0" z="-1.1" rotation="0.0"/>
+         </feeder>
       </feeders>
       <cameras>
          <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" id="CAM1614803235898" name="Bottom" looking="Up" auto-visible="false" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="false" enable-units-per-pixel-3-d="false" auto-view-plane-z="false" max-relative-motion="0.05" min-motion-template-match-score="0.9" min-contrast-range="16.0" settle-method="FixedTime" settle-time-ms="250" settle-timeout-ms="500" settle-threshold="0.0" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" fps="10.0" suspend-preview-in-tasks="false" capture-try-count="4" capture-try-timeout-ms="2000" rotation="0.0" flip-x="true" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0" green-balance="1.0" blue-balance="1.0" red-gamma="1.0" green-gamma="1.0" blue-gamma="1.0" deinterlace="false" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" unique-id="LumenPnP Bottom: LumenPnP Botto usb-0000:07:00.3-1.2" format-id="0" freeze-properties="false">
@@ -684,7 +688,7 @@
          </entry>
          <entry>
             <string>PhotonFeeder.MaxFeederAddress</string>
-            <object class="java.lang.Integer">5</object>
+            <object class="java.lang.Integer">11</object>
          </entry>
          <entry>
             <string>ReferenceAutoFeederSlot.banks</string>
@@ -744,7 +748,7 @@
                   </slot>
                   <slot address="25"/>
                   <slot address="11">
-                     <location units="Millimeters" x="220.452" y="143.235" z="30.0" rotation="180.0"/>
+                     <location units="Millimeters" x="185.84" y="54.99" z="3.5" rotation="0.0"/>
                   </slot>
                   <slot address="12"/>
                   <slot address="7">
@@ -796,7 +800,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.01682419520826136" center-y="-0.008559507074568134" radius="0.09568249166723326" phase-shift="-174.58174643969252" units="Millimeters" peak-error="1.0739447706955447" rms-error="0.4607088139671565"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.24291820905961936" center-y="0.14883726742908476" radius="0.13775668953443038" phase-shift="28.22817726191146" units="Millimeters" peak-error="0.8818168770471165" rms-error="0.42126417219220524"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
@@ -851,7 +855,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>NOZ1710829fd33a0170</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.18367348499999997" center-y="0.006734006666666667" radius="6.471486648774272E-19" phase-shift="90.0" units="Millimeters" peak-error="0.026936026666666668" rms-error="0.019046647114221677"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.18367348499999997" center-y="-0.013468013333333336" radius="0.0" phase-shift="90.00000000000001" units="Millimeters" peak-error="0.033670033333333335" rms-error="0.015057696667603433"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
