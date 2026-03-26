@@ -424,7 +424,7 @@
             <location units="Millimeters" x="308.32" y="200.24" z="4.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-2.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR18a0828c10e64627" name="0044000C5843570C20313138" enabled="false" part-id="SOT-353_SC-70-5-SN74LVC1G08DCKR" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="0044000C5843570C20313138" part-pitch="4" move-while-feeding="true">
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR18a0828c10e64627" name="0044000C5843570C20313138" enabled="false" part-id="SOT-353_SC-70-5-SN74LVC1G08DCKR" retry-count="3" feed-retry-count="3" pick-retry-count="0" priority="Normal" feed-options="Normal" hardware-id="0044000C5843570C20313138" part-pitch="4" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <offset units="Millimeters" x="0.0" y="-0.0" z="-1.1" rotation="0.0"/>
          </feeder>
@@ -793,14 +793,14 @@
                   <stages>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="image" enabled="true" default-light="true" settle-option="Settle" count="1"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.MaskCircle" name="mask" enabled="true" diameter="70" property-name="MaskCircle"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCircularSymmetry" name="cir" enabled="true" min-diameter="5" max-diameter="25" max-distance="250" search-width="0" search-height="0" max-target-count="1" min-symmetry="1.2" corr-symmetry="0.0" outer-margin="0.2" inner-margin="0.4" sub-sampling="8" super-sampling="1" symmetry-score="OverallVarianceVsRingVarianceSum" property-name="" diagnostics="true" heat-map="true"/>
+                     <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCircularSymmetry" name="cir" enabled="true" min-diameter="20" max-diameter="25" max-distance="250" search-width="0" search-height="0" max-target-count="1" min-symmetry="1.2" corr-symmetry="0.0" outer-margin="0.2" inner-margin="0.4" sub-sampling="8" super-sampling="1" symmetry-score="OverallVarianceVsRingVarianceSum" property-name="" diagnostics="true" heat-map="true"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertModelToKeyPoints" name="results" enabled="true" model-stage-name="cir"/>
                   </stages>
                </pipeline>
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.24291820905961936" center-y="0.14883726742908476" radius="0.13775668953443038" phase-shift="28.22817726191146" units="Millimeters" peak-error="0.8818168770471165" rms-error="0.42126417219220524"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.2353580042696378" center-y="-0.0034751716162278734" radius="0.09742070943145502" phase-shift="-126.67272829707511" units="Millimeters" peak-error="0.027498192258659848" rms-error="0.014491938878552673"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
@@ -855,7 +855,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>NOZ1710829fd33a0170</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.18367348499999997" center-y="-0.013468013333333336" radius="0.0" phase-shift="90.00000000000001" units="Millimeters" peak-error="0.033670033333333335" rms-error="0.015057696667603433"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.19047620666666665" center-y="-0.013468013333333336" radius="0.012597182859986672" phase-shift="-26.333083561833586" units="Millimeters" peak-error="0.025849456828129076" rms-error="0.017143264056261355"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
